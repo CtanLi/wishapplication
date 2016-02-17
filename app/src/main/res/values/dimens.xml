@@ -1,0 +1,62 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="element_spacing_normal">8dp</dimen>
+    <dimen name="spacing_micro">4dp</dimen>
+
+    <!-- Tabs -->
+
+    <dimen name="tab_max_width">264dp</dimen>
+    <dimen name="tab_padding_bottom">16dp</dimen>
+    <dimen name="tab_label">14sp</dimen>
+    <dimen name="custom_tab_layout_height">72dp</dimen>
+    <dimen name="tab_indicator_height">4dp</dimen>
+
+
+    <!-- per https://developer.android.com/reference/android/view/ViewGroup.LayoutParams.html#MATCH_PARENT -->
+    <item name="match_parent" format="integer" type="dimen">-1</item>
+
+
+    <!-- App Primary Text Sizes -->
+    <dimen name="app_text_size_xsmall">11sp</dimen>
+    <dimen name="app_text_size_small">12sp</dimen>
+    <dimen name="app_text_size_medium">14sp</dimen>
+    <dimen name="app_text_size_large">18sp</dimen>
+    <dimen name="app_text_size_xlarge">24sp</dimen>
+
+    <!-- body content -->
+
+    <dimen name="content_padding_normal">16dp</dimen>
+    <dimen name="content_padding_dialog">24dp</dimen>
+
+
+
+    <!-- line spacing and Max Lines-->
+    <item name="body_1_spacing" format="float" type="dimen">1.22448979592</item>
+    <item name="max_lines" format="integer" type="dimen">2</item>
+
+
+    <!-- UI elements -->
+
+    <dimen name="avatar_image_size">40dp</dimen>
+    <dimen name="large_thumbnail">150dp</dimen>
+    <dimen name="normal_thumbnail">40dp</dimen>
+    <dimen name="icon_image_size">48dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="divider_padding_top">8dp</dimen>
+    <dimen name="divider_padding_bottom">8dp</dimen>
+
+    <!-- cards -->
+
+    <dimen name="card_margin">8dp</dimen>
+    <dimen name="resting_elevation">2dp</dimen>
+    <dimen name="raised_elevation">8dp</dimen>
+
+
+
+
+
+</resources>

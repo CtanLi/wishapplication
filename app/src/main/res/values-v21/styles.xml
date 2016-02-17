@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!--   Start -->
+    <!-- Tab Style -->
+
+    <style name="AppTheme.TabStyle" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/AppTheme.TextStyle</item>
+        <item name="tabTextColor">@color/colorPrimary</item>
+        <item name="tabSelectedTextColor">@color/colorAccent</item>
+        <item name="tabIndicatorColor">@color/colorAccent</item>
+        <item name="tabIndicatorHeight">4dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <!-- Tab Text. -->
+    <style name="AppTheme.TextStyle" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+
+    <!--  ******* -->
+    <!-- Text Style -->
+    <!-- ************ -->
+
+    <style name="text_title_card">
+
+        <item name="android:textSize">@dimen/app_text_size_xlarge</item>
+        <item name="android:maxLines">@dimen/max_lines</item>
+        <item name="android:layout_marginTop">@dimen/default_margin</item>
+        <item name="android:layout_marginLeft">@dimen/default_margin</item>
+        <item name="android:layout_marginRight">@dimen/default_margin</item>
+        <item name="android:layout_marginBottom">@dimen/element_spacing_normal</item>
+
+    </style>
+
+    <!-- Text Caption -->
+
+    <style name="text_caption">
+
+        <item name="android:textSize">@dimen/app_text_size_small</item>
+        <item name="android:layout_marginRight">@dimen/default_margin</item>
+        <item name="android:layout_marginLeft">@dimen/default_margin</item>
+
+    </style>
+
+
+
+    <!-- ************ -->
+    <!-- Images Style -->
+    <!-- ************ -->
+
+    <!-- Large Image -->
+
+    <style name="large_image">
+
+
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:scaleType">centerCrop</item>
+
+    </style>
+
+    <!-- Thumbnail Image -->
+
+    <style name="thumbnail_image">
+
+
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:scaleType">centerCrop</item>
+
+    </style>
+
+    <!-- Avatar Image -->
+
+    <style name="image_avatar">
+
+        <item name="android:layout_marginLeft">@dimen/default_margin</item>
+        <item name="android:layout_marginBottom">@dimen/default_margin</item>
+
+    </style>
+
+    <!-- More Button Image-->
+
+    <style name="icon_more_image">
+
+        <item name="android:layout_marginLeft">@dimen/default_margin</item>
+        <item name="android:layout_marginRight">@dimen/default_margin</item>
+        <item name="android:selectableItemBackground">?android:selectableItemBackground</item>
+
+    </style>
+
+    <!-- Icon Image -->
+
+    <style name="icons_image">
+
+        <item name="android:layout_marginLeft">@dimen/spacing_micro</item>
+        <item name="android:layout_marginRight">@dimen/spacing_micro</item>
+        <item name="android:selectableItemBackground">?android:selectableItemBackground</item>
+    </style>
+
+
+</resources>
