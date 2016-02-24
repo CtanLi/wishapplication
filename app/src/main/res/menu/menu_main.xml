@@ -24,6 +24,13 @@
         android:icon="@drawable/ic_launcher"
         app:showAsAction="ifRoom"  />
 
+    <item android:id="@+id/logout_menu_item"
+        android:title="Logout"
+        app:showAsAction="always"/>
+    <item android:id="@+id/login_menu_item"
+        android:title="Login"
+        app:showAsAction="always"/>
+
     <item
         android:id="@+id/action_settings4"
         android:orderInCategory="100"
@@ -37,6 +44,5 @@
         android:title="@string/action_settings"
         android:icon="@drawable/ic_launcher"
         app:showAsAction="ifRoom"  />
-
 
 </menu>
